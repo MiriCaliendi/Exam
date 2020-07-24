@@ -1,0 +1,71 @@
+@media only screen and (min-width: 769px){
+}
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+}
+@media only screen and (max-width: 480px) {
+    .burger_menu{
+        left: 28px;
+        top: 28px;
+        position: absolute;
+        display: block;
+    }
+    .burger_menu img{
+        width: 35px;
+    }
+    nav{
+        left: 0px;
+        padding: 5px;
+    }
+    nav .menu .menu_items{
+        display: none;
+    }
+    .under_menu_img img{
+        padding: 20px;
+    }
+    img{
+        max-width: 100%;
+    }
+    div.first_img_interactive, .firt_container_interactive{
+        max-width: 100%;
+    }
+    div.features{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .first_img_interactive{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .interactive_prototypes1{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .interactive_prototypes2{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    div .check{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .align_items_comment{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .align_items_aboutUs{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .content_blogPosts{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .align_items_form{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .testimonials{
+        max-width: 100%;
+    }
+}
